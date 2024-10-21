@@ -1,0 +1,38 @@
+A. Requêtes de base (Sélections simples)
+Sélectionner toutes les colonnes de la table clients.
+Sélectionner uniquement la colonne nom_client de la table clients.
+Sélectionner toutes les colonnes de la table commandes triées par la colonne date_commande dans l'ordre croissant.
+Sélectionner toutes les colonnes de la table produits où la colonne code_produit est égale à 'S10_1678'.
+Sélectionner uniquement les valeurs distinctes de la colonne pays de la table clients.
+Sélectionner toutes les colonnes de la table employes où le nom est 'Jones' ET le prénom est 'Barry'.
+Sélectionner toutes les colonnes de la table clients où le pays est 'France' OU 'USA'.
+Sélectionner toutes les colonnes de la table produits où la colonne code_produit est dans ('S10_1678', 'S10_1949', 'S10_2016').
+Sélectionner toutes les colonnes de la table produits où la colonne code_produit n'est pas dans ('S10_1678', 'S10_1949', 'S10_2016').
+Sélectionner toutes les colonnes de la table commandes où la colonne date_commande est entre '2003-01-01' et '2003-12-31'.
+B. Filtrage avancé
+Sélectionner toutes les colonnes de la table clients où le nom du contact commence par 'John'.
+Sélectionner les 10 premières lignes de la table produits.
+Sélectionner toutes les colonnes de la table employes où la colonne code_bureau est NULL.
+Sélectionner les noms et prénoms des employés en renommant les colonnes en 'Nom' et 'Prénom'.
+Sélectionner toutes les colonnes de la table employes où la colonne poste contient le mot "Manager".
+Sélectionner toutes les colonnes de la table produits où la description (description_produit) contient le mot 'classic'.
+Sélectionner toutes les colonnes de la table commandes où la colonne statut est 'Shipped' ou 'Resolved'.
+Sélectionner toutes les colonnes de la table commandes où la colonne statut est NULL.
+C. Jointures
+Sélectionner toutes les colonnes de la table employes ainsi que toutes les colonnes de la table bureaux en les joignant sur la colonne code_bureau.
+Sélectionner toutes les colonnes de la table employes ainsi que toutes les colonnes de la table bureaux en les joignant sur la colonne code_bureau, en incluant uniquement les lignes où les employés sont affectés à un bureau.
+Sélectionner toutes les colonnes de la table employes ainsi que toutes les colonnes de la table bureaux en les joignant sur la colonne code_bureau, en incluant toutes les lignes de la table employes.
+Sélectionner toutes les colonnes de la table employes deux fois en les joignant sur les colonnes rapporte_a et numero_employe, où les employés rapportent à d'autres employés.
+Sélectionner toutes les combinaisons de lignes des tables employes et bureaux.
+D. Agrégations et regroupements
+Sélectionner la colonne ville de la table bureaux et compter le nombre d'employés dans chaque ville, en regroupant par ville.
+Sélectionner la colonne ville de la table bureaux et compter le nombre d'employés dans chaque ville, en regroupant par ville et en ne considérant que les villes avec plus de 5 employés.
+Sélectionner le nombre total d'employés ainsi que le nombre d'employés dans chaque bureau.
+E. Sous-requêtes et filtrage avancé
+Sélectionner toutes les colonnes de la table clients où le pays est 'USA' et le crédit est supérieur à 5000, en utilisant une sous-requête.
+Sélectionner toutes les colonnes de la table employes où le rapport existe dans la table clients.
+Sélectionner toutes les colonnes de la table produits qui ne sont pas présentes dans la table details_commandes.
+Sélectionner toutes les colonnes de la table produits qui sont présentes dans la table details_commandes et dans la table details_commandes2, en utilisant INTERSECT.
+F. Pagination et gestion des résultats
+Sélectionner toutes les colonnes de la table clients avec une limite de 10 résultats par page, en paginant les résultats.
+Sélectionner toutes les colonnes de la table employes triées par la colonne nom en ordre décroissant, avec une limite de 5 résultats par page pour la deuxième page.
