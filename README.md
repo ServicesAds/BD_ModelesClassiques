@@ -1,4 +1,4 @@
-# bd_modeles_classiques.SQL
+# BD_ModelesClassiques
 Cette base de données est un excellent support pour s'entraîner à maîtriser le langage SQL. Elle est suffisamment complète et structurée pour permettre la pratique de nombreuses commandes SQL essentielles. 
 La base de données modeles_classiques est un modèle relationnel conçu pour gérer un système de vente de produits. Elle regroupe plusieurs entités interconnectées, permettant de suivre les catégories de produits, les bureaux, les employés, les clients, les commandes et les paiements. Elle peut être utilisée pour des scénarios commerciaux réalistes tels que la gestion des stocks, le suivi des ventes, et la gestion des clients. Voici une description des principales tables :
 1. categories_produits : Cette table contient les informations relatives aux différentes catégories de produits. Chaque ligne de produit a une description en texte brut, une description au format HTML et une image associée.
